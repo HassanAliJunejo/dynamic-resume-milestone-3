@@ -31,7 +31,5 @@ function downloadPDF() {
             jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
         };
 
-        // Convert the output section to PDF
-        html2pdf().set(options).from(outputSection).save();
     }
 }
